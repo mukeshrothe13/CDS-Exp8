@@ -22,7 +22,7 @@ int main()
     {  cout<< "Matrix cannot be added as dimension do not match."<<endl;
     }
   else
-{cout<<"Enter Matrix-1 elements";
+{cout<<"Enter Matrix-1 elements"<<endl;
  for (i=0 ; i < a ; i++)
     {
         for(j = 0 ; j < b ; j++)
@@ -31,7 +31,7 @@ int main()
         }
     }
 
-cout<<"Enter Matrix-2 elements";
+cout<<"Enter Matrix-2 elements"<<endl;
     for (i=0 ; i < c ; i++)
     {
         for(j = 0 ; j < d ; j++)
