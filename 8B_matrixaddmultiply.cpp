@@ -8,7 +8,7 @@ int main()
     cin>> a ;
     cout<<"Enter Matrix-1 columns: ";
     cin>> b;
-    cout<<'Enter Matrix-2 rows: ";
+    cout<<"Enter Matrix-2 rows: ";
     cin>> c ;
     cout<<"Enter Matrix-2 columns: ";
     cin>> d;
@@ -22,7 +22,8 @@ int main()
     {  cout<< "Matrix cannot be added as dimension do not match."<<endl;
     }
   else
-{for (i=0 ; i < a ; i++)
+{cout<<"Enter Matrix-1 elements";
+ for (i=0 ; i < a ; i++)
     {
         for(j = 0 ; j < b ; j++)
         {   cout<< "Enter elements- ("<<i<< "," <<j<<"): "  ;
@@ -30,7 +31,7 @@ int main()
         }
     }
 
-
+cout<<"Enter Matrix-2 elements";
     for (i=0 ; i < c ; i++)
     {
         for(j = 0 ; j < d ; j++)
@@ -62,7 +63,7 @@ for(i = 0; i<a ; i++)
 {
     for( j = 0; j<d ; j++)
     {
-        mul[i][j] = 0;
+        multi[i][j] = 0;
         for( k=0; k<b ; k++)
         {
             multi[i][j] += mat1[i][k] * mat2[k][j];
