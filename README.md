@@ -229,6 +229,7 @@ for (i=0 ; i<c ; i++)
     
 }
 cout<<endl;
+cout<<" Transpose of the matrix is: "<<endl;
 for (i=0 ; i<c ; i++)
 {
     for(j = 0; j< r ; j++ )
@@ -245,12 +246,19 @@ for (i=0 ; i<c ; i++)
 ## Output
 Matrix-
 
+![Screenshot 2024-08-30 092111](https://github.com/user-attachments/assets/26fede1b-7f33-4543-a1c3-b66831882609)
+
 Matrix Add-Multiply-
+
+![Screenshot 2024-08-30 092206](https://github.com/user-attachments/assets/3a535135-5187-4d16-8b83-3c9e0fbe7c5e)
 
 Matrix Diagonal Sum-
 
+![Screenshot 2024-08-30 092302](https://github.com/user-attachments/assets/4f5a488c-aa6c-40f9-ab26-47d66bbfdc52)
+
 Matrix Transpose-
 
+![Screenshot 2024-08-30 092541](https://github.com/user-attachments/assets/0ecbe373-c562-4f57-b3e1-1ea68010dc2c)
 
 
 ## Conclusion
