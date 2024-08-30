@@ -35,6 +35,7 @@ for (i=0 ; i<c ; i++)
     
 }
 cout<<endl;
+cout<<" Transpose of the matrix is: "<<endl;
 for (i=0 ; i<c ; i++)
 {
     for(j = 0; j< r ; j++ )
